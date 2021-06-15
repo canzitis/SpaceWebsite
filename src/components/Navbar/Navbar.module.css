@@ -1,0 +1,44 @@
+.nav{
+    position: fixed;
+    width: 199px;
+    height: 900px;
+    grid-area: n;
+    background-image: url(https://avatars.mds.yandex.net/get-zen_doc/1590365/pub_5f202d68edcaf1457ff87a44_5f2031ce959a4266b719cfef/scale_1200);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 58px;
+    margin-left: 9px;
+    padding: 10px;
+
+  }
+
+  .item a {
+      color: white;
+      text-decoration: none;
+      margin: 20px;
+  }
+  
+  .item{
+    padding-top: 7px;
+  }
+
+  .nav :focus{
+      color: red;
+      font-size: 110%;
+  }
+
+  .nav :hover{
+    text-decoration: underline;
+    font-size: 110%;
+  }
+
+  
+ .settings {
+    padding-top: 40px;
+  }
+
+  .settings a{
+  color: rgb(233, 220, 30);
+  text-decoration: none;
+  padding-left: 20px;
+  }

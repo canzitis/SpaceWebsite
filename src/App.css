@@ -1,0 +1,33 @@
+.app-wrapper{
+  margin-right: 9px;
+  display: grid;
+
+  font-size: 20px;
+
+  grid-template-areas: 
+  "h h"
+  "n c";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  /* grid-gap: 10px; */
+}
+
+.app-wrapper-content .newsItem{
+  margin-left: 1000px;
+}
+
+.app-wrapper-content{
+  grid-area: c;
+  background-color: rgb(32 63 108);
+  margin-left: -20px;
+  margin-top: -9px;
+}
+
+.app-wrapper-content .profInfo{
+  margin-top: -5px;
+  height: 650px;
+  background-image: url(https://img.gazeta.ru/files3/108/12818108/Depositphotos_98492334_l-2015-pic4_zoom-1500x1500-71566.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

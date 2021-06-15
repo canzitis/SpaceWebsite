@@ -1,0 +1,22 @@
+.news{
+    font-size: 20px;
+    color: white;
+}
+
+.newsItem{
+    padding-top: 30px; 
+    border-bottom: solid black;  
+}
+.liks{
+    color: gold;
+    padding-top: 60px; 
+    padding-bottom: 30px; 
+}
+.news h4{
+    text-align: center;
+}
+.news img{
+margin-left: 28%;
+width: 600px;
+height: 400px;
+}

@@ -1,0 +1,46 @@
+.header{
+  position: fixed;
+  width: 1501px;
+  margin-left: 9px;
+  height: 54px;
+  grid-area: h;
+  background-image: url(https://naked-science.ru/wp-content/uploads/2018/04/field_image_istock-516189065.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.strip{
+position: fixed;
+margin-top: 54px;
+width: 100%;
+height: 4px;
+background-color: white;
+  }
+  
+  .header img{
+    width: 70px;
+  }
+
+.loginBlock{
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: gold;
+  text-decoration: none;
+  
+}
+
+.loginBlock a{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: gold;
+  text-decoration: none;
+}
+.loginBlock a:hover{
+  text-decoration: underline;
+    font-size: 110%;
+}
